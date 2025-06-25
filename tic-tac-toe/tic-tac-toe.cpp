@@ -54,6 +54,7 @@ void drawBoard(char *spaces) {
     std::cout << "_____|_____|_____" << "\n";
     std::cout << "     |     |     " << "\n";
     std::cout << "  " << spaces[6] << "  |  " << spaces[7] << "  |  " << spaces[8] << "  " << "\n";
+    std::cout << "     |     |     " << "\n";
     std::cout << "\n";
 }
 void playerMove(char *spaces, char player) {
